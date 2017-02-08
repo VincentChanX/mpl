@@ -6,15 +6,18 @@ mpl扩展包含了很多常用的函数,如字符串的转换,正则匹配等.
 
 * PHP 7.0 +
 
-##安装
+##编译安装
 
 ```shell
+$cd /path/to/source
 $/path/to/phpize
 $./configure
 $make && make install
 ```
 
 ##API
+
+扩展提供的函数均以mpl_前缀命名
 
 ###mpl_convert_case(mixed param, int mode) *mixed*
 #####对字符串,数组键名进行大小写和下划线转换
